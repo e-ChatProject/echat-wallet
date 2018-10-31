@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = "업무";
+"WalletBalanceEmptyTitle"   = "당신은 거래가 없습니다";
+
+//Transaction filter titles
+"TFilterAll"          = "모든";
+"TFilterSent"         = "전송 됨";
+"TFilterReceived"     = "받은";
+"TFilterCryptolike"   = "ECHTlike";
+"TFilterWithdraw"     = "빼다";
+
+//Cell titles
+"WalletSent"          = "전송 됨";
+"WalletReceived"      = "받은";
+"WalletCryptolike"    = "ECHTlike";
+"WalletWithdraw"      = "빼다";
+
+// Buttons titles
+"WalletReceiveTitle"  = "받다";
+"WalletSendTitle"     = "보내다";
+"WalletContactTo"     = "에";
+"WalletContactFrom"   = "에서";
+
+// Date titles
+"WalletToday"         = "오늘";
+"WalletYesterday"     = "어제";
+"WalletTomorrow"      = "내일";
+"ECHT"                = "ECHT";
+
+//Send money
+"WalletWithdraw"      = "빼다";
+"WalletNext"          = "Next";
+"WalletSendMoney"     = "보내기";
+"WalletNewAccount"    = "새 \ 계정";
+"WalletFindContact"   = "연락처 찾기";
+"WalletTo"            = "에";
+"WalletSetPinMessage" = "핀 코드를 설정하십시오";
+"WalletEmptyContactMessage" = "송금 할 연락처를 선택하십시오.";
+"WalletEmptyMoneyMessage"   = "금액을 입력하십시오";
+"WalletMinSendMoneyMessage" = "금액을 0보다 많이 입력하십시오.";
+"WalletMaxMoneyMessage"     = "금액보다 적은 금액을 입력하십시오.";
+"WalletLimitMoneyMessage"   = "99999보다 적은 금액을 입력하십시오.";
+"WalletScanWrongQrMessage"  = "잘못된 ECHT 주소";
+"WalletEnterWrongQrMessage" = "올바른 QR 지갑을 입력하십시오.";
+"WalletWrongPinMessage"     = "올바른 핀을 입력하십시오";
+"WalletScanQR"              = "QR 주소 스캔";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt"       = "귀하의 영수증";
+"WalletConfirmInfo"   = "정보를 확인하십시오";
+"WalletAccount"       = "e- 채팅 계정";
+"WalletDate"          = "날짜";
+"WalletTime"          = "시각";
+"WalletTotal"         = "보낼 금액";
+"WalletReform"        = "개정";
+"WalletConfirm"       = "확인";
+"WalletUserHolder"    = "사용자 이름";
+"WalletAmountHolder"  = "금액을 입력하세요";
+"WalletIncognito"     = "가명";
+
+//Withdraw
+"WalletWithdraw"            = "빼*다";
+"WalletWithdrawSubtitle"    = "철수 금액 입력";
+"WalletAmount"              = "금액을 입력하세요";
+"WalletReceiver"            = "수신자 주소";
+"WalletMinMoneyMessage"     = "금액을 20 이상 입력하십시오.";
+"WalletEmptyAddressMessage" = "송,금 할 주소를 입력하십시오.";
+"WalletWrongAddressMessage" = "유효한 수신자 주소를 입력하십시오";
+"WalletConfirmWithdraw"     = "Confirm Withdraw";
+"WalletConfirmMessage"      = "정말-로 보내시겠습니까?" ;
+"WalletToAddress"           = "주소";
+
+//Received
+"WalletCopied"              = "복사 됨";
+"WalletCopyHashButton"      = "부";
+
+//Response messages
+"未设置交易密码"               = "거래 비밀번호 없음";
+"WalletTransactionSuccess"  = "거래 완료 성공";
+"WalletTransactionFailed"   = "거래가 완료되지 않았습니다";
+
+//Error loading message
+"WalletAddressLoadError"        = "사용자 주소를로드 할 수 없습니다. \n인터넷 연결을 확인하고 나중에 시도하십시오.";
+"WalletTransactionsLoadError"   = "지금 거래 목록을로드 할 수 없습니다. \n인터넷 연결을 확인하고 나중에 시도하십시오.";
+"WalletContactsListLoadError"   = "지금 연락처 목록을로드 할 수 없습니다. \n인터넷 연결을 확인하고 나중에 시도하십시오.";
+
+//Reset PIN
+"Set PIN" = "PIN 재설정";
+"Change PIN" = "PIN 변경";
+"Enter your account password to change PIN code" = "PIN 코드를 변경하려면 계정 비밀번호를 입력하십시오";
+"Password too short" = "비밀번호가 너무 짧습니다";
+"Verification failed" = "인증 실패";
+"PIN code successfuly changed" = "PIN 코드가 성공적으로 변경되었습니다";
+"PIN code saved" = "PIN 코드 저장 됨";
+"Password" = "암호";

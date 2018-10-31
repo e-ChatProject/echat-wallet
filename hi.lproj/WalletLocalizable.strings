@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = "लेन-देन";
+"WalletBalanceEmptyTitle"   = "आपके पास लेनदेन नहीं हैं";
+
+//Transaction filter titles
+"TFilterAll"          = "सब";
+"TFilterSent"         = "भेज दिया";
+"TFilterReceived"     = "प्राप्त किया";
+"TFilterCryptolike"   = "ECHTलाइक";
+"TFilterWithdraw"     = "निकालना";
+
+//Cell titles
+"WalletSent"          = "भेज दिया";
+"WalletReceived"      = "प्राप्त किया";
+"WalletCryptolike"    = "ECHTलाइक";
+"WalletWithdraw"      = "निकालना";
+
+// Buttons titles
+"WalletReceiveTitle"  = "प्राप्त करें";
+"WalletSendTitle"     = "भेजें";
+"WalletContactTo"     = "किस को";
+"WalletContactFrom"   = "किस से";
+
+// Date titles
+"WalletToday"         = "आज ";
+"WalletYesterday"     = "बिता कल";
+"WalletTomorrow"      = "कल";
+"ECHT"                = "ECHT";
+
+//Send money
+"WalletWithdraw"      = "निकालें";
+"WalletNext"          = "अगला";
+"WalletSendMoney"     = "..को भेजें";
+"WalletNewAccount"    = "नया\nखाता";
+"WalletFindContact"   = "संपर्क खोजें";
+"WalletTo"            = "To";
+"WalletSetPinMessage" = "Please set a pin code";
+"WalletEmptyContactMessage" = "कृपया राशि भेजने के लिए संपर्क का चयन करें";
+"WalletEmptyMoneyMessage"   = "कृपया राशि दर्ज करें";
+"WalletMinSendMoneyMessage" = "0 से अधिक राशि दर्ज करें";
+"WalletMaxMoneyMessage"     = "कृपया अपने बैलेंस से कम राशि दर्ज करें";
+"WalletLimitMoneyMessage"   = "99 999 से कम राशि दर्ज करें";
+"WalletScanWrongQrMessage"  = "गलत ECHT पता";
+"WalletEnterWrongQrMessage" = "कृपया एक सही QR वॉलेट दर्ज करें";
+"WalletWrongPinMessage"     = "कृपया एक सही पिन दर्ज करें";
+"WalletScanQR"              = "QR पता स्कैन करें";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt"       = "आपकी रसीद";
+"WalletConfirmInfo"   = "कृपया जानकारी की पुष्टि करें";
+"WalletAccount"       = "e-Chat खाता";
+"WalletDate"          = "तारीख";
+"WalletTime"          = "समय";
+"WalletTotal"         = "भेजी जाने वाली राशि";
+"WalletReform"        = "बदलें";
+"WalletConfirm"       = "पुष्टि करें";
+"WalletUserHolder"    = "उपयोगकर्ता का नाम";
+"WalletAmountHolder"  = "राशि दर्ज करें";
+"WalletIncognito"     = "गुप्त रूप से";
+
+//Withdraw
+"WalletWithdraw"            = "निकालें";
+"WalletWithdrawSubtitle"    = "निकालने के लिए राशि दर्ज करें";
+"WalletAmount"              = "राशि दर्ज करें";
+"WalletReceiver"            = "प्राप्तकर्ता का पता";
+"WalletMinMoneyMessage"     = "कृपया 20 से अधिक राशि दर्ज करें";
+"WalletEmptyAddressMessage" = "राशि भेजने के लिए पता दर्ज करें";
+"WalletWrongAddressMessage" = "कृपया प्राप्तकर्ता का वैध पता दर्ज करें";
+"WalletConfirmWithdraw"     = "निकासी की पुष्टि करें";
+"WalletConfirmMessage"      = "क्या आप वास्तव में भेजना चाहते हैं";
+"WalletToAddress"           = "इस पते को";
+
+//Received
+"WalletCopied"              = "कॉपी की गयी";
+"WalletCopyHashButton"      = "कॉपी करें";
+
+//Response messages
+"未设置交易密码"               = "कोई लेनदेन पासवर्ड नहीं सेट किया गया है";
+"WalletTransactionSuccess"  = "लेनदेन सफलतापूर्वक पूरा किया गया";
+"WalletTransactionFailed"   = "लेनदेन पूरा नहीं किया गया";
+
+//Error loading message
+"WalletAddressLoadError"        = "अब उपयोगकर्ता का पता नहीं लोड किया जा सकता है।\nकृपया अपना इंटरनेट कनेक्शन जांचें और बाद में प्रयास करें।";
+"WalletTransactionsLoadError"   = "अब आपके लेनदेनों की सूची नहीं लोड की जा सकती है।\nकृपया अपना इंटरनेट कनेक्शन जांचें और बाद में प्रयास करें।";
+"WalletContactsListLoadError"   = "अब आपके संपर्कों की सूची नहीं लोड की जा सकती है।\nकृपया अपना इंटरनेट कनेक्शन जांचें और बाद में प्रयास करें।";
+
+//Reset PIN
+"Set PIN" = "PIN रीसेट करें";
+"Change PIN" = "PIN बदलें";
+"Enter your account password to change PIN code" = "PIN कोड बदलने के लिए अपने खाते का पासवर्ड दर्ज करें";
+"Password too short" = "पासवर्ड बहुत छोटा है";
+"Verification failed" = "सत्यापन असफल हो गया";
+"PIN code successfuly changed" = "PIN कोड सफलतापूर्वक बदला गया";
+"PIN code saved" = "PIN कोड सहेजा गया";
+"Password" = "पासवर्ड";

@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = "Transksi";
+"WalletBalanceEmptyTitle"   = "Anda belum memiliki transaksi";
+
+//Transaction filter titles
+"TFilterAll"          = "Semua";
+"TFilterSent"         = "Terkirim";
+"TFilterReceived"     = "Diterima";
+"TFilterCryptolike"   = "ECHTlike";
+"TFilterWithdraw"     = "Menarik";
+
+//Cell titles
+"WalletSent"          = "Terkirim";
+"WalletReceived"      = "Diterima";
+"WalletCryptolike"    = "ECHTlike";
+"WalletWithdraw"      = "Menarik";
+
+// Buttons titles
+"WalletReceiveTitle"  = "Terima";
+"WalletSendTitle"     = "Kirim";
+"WalletContactTo"     = "ke";
+"WalletContactFrom"   = "Dari";
+
+// Date titles
+"WalletToday"         = "Hari ini";
+"WalletYesterday"     = "Kemarin";
+"WalletTomorrow"      = "Besok";
+"ECHT"                = "ECHT";
+
+//Send money
+"WalletWithdraw"      = "Penarikan";
+"WalletNext"          = "Selanjutnya";
+"WalletSendMoney"     = "Kirim ke";
+"WalletNewAccount"    = "Akun\nbaru";
+"WalletFindContact"   = "Temukan kontak";
+"WalletTo"            = "Ke";
+"WalletSetPinMessage" = "Harap tentukan kode pin";
+"WalletEmptyContactMessage" = "Harap pilih kontak untuk mengirim jumlah";
+"WalletEmptyMoneyMessage"   = "Harap masukkan jumlah";
+"WalletMinSendMoneyMessage" = "Harap masukkan jumlah lebih dari 0";
+"WalletMaxMoneyMessage"     = "Harap masukkan jumlah lebih kecil dari saldo Anda";
+"WalletLimitMoneyMessage"   = "Harap masukkan jumlah lebih kecil dari  99999";
+"WalletScanWrongQrMessage"  = "Alamat ECHT salah";
+"WalletEnterWrongQrMessage" = "Harap masukkan dompet QR yang benar";
+"WalletWrongPinMessage"     = "Harap masukkan pin yang benar";
+"WalletScanQR"              = "Scan alamat QR";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt"       = "Tanda terima Anda";
+"WalletConfirmInfo"   = "Harap konfirmasi informasi ini";
+"WalletAccount"       = "AKUN e-Chat";
+"WalletDate"          = "Tanggal";
+"WalletTime"          = "Waktu";
+"WalletTotal"         = "Jumlah yang ingin dikirim";
+"WalletReform"        = "Formasi ulang";
+"WalletConfirm"       = "Konfirmasi";
+"WalletUserHolder"    = "Nama pengguna";
+"WalletAmountHolder"  = "Masukkan jumlah";
+"WalletIncognito"     = "Incognito";
+
+//Withdraw
+"WalletWithdraw"            = "Penarikan";
+"WalletWithdrawSubtitle"    = "Masukkan jumlah yang ingin ditarik";
+"WalletAmount"              = "Masukkan jumlah";
+"WalletReceiver"            = "Alamat penerima";
+"WalletMinMoneyMessage"     = "Harap masukkan jumlah lebih dari 20";
+"WalletEmptyAddressMessage" = "Silakan masukkan alamat untuk jumlah kirim";
+"WalletWrongAddressMessage" = "Silakan masukkan alamat penerima yang valid";
+"WalletConfirmWithdraw"     = "Konfirmasi penarikan";
+"WalletConfirmMessage"      = "Apakah Anda benar-benar ingin mengirim";
+"WalletToAddress"           = "Ke alamat";
+
+//Received
+"WalletCopied"              = "Disalin";
+"WalletCopyHashButton"      = "Salin";
+
+//Response messages
+"未设置交易密码"               = "Tidak ada password transaksi";
+"WalletTransactionSuccess"  = "Transaksi berhasil diselesaikan";
+"WalletTransactionFailed"   = "Transaksi belum selesai";
+
+//Error loading message
+"WalletAddressLoadError"        = "Tidak dapat memuat alamat pengguna sekarang \ nHarap periksa koneksi internet Anda dan coba lagi.";
+"WalletTransactionsLoadError"   = "Tidak dapat memuat daftar transaksi Anda sekarang \ nHarap periksa koneksi internet Anda dan coba lagi.";
+"WalletContactsListLoadError"   = "Tidak dapat memuat daftar kontak Anda sekarang \ nHarap periksa koneksi internet Anda dan coba lagi.";
+
+//Reset PIN
+"Set PIN" = "Reset PIN";
+"Change PIN" = "Ganti PIN";
+"Enter your account password to change PIN code" = "Masukkan password akun Anda untuk mengubah kode PIN";
+"Password too short" = "Password terlalu pendek";
+"Verification failed" = "Verifikasi gagal";
+"PIN code successfuly changed" = "Kode PIN berhasil diganti";
+"PIN code saved" = "Kode PIN disimpan";
+"Password" = "Password";

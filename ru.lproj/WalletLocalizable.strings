@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = "Транзакции";
+"WalletBalanceEmptyTitle"   = "У вас нет транзакций";
+
+//Transaction filter titles
+"TFilterAll"          = "Все";
+"TFilterSent"         = "Отправлено";
+"TFilterReceived"     = "Получено";
+"TFilterCryptolike"   = "ECHTлайк";
+"TFilterWithdraw"     = "Вывод";
+
+//Cell titles
+"WalletSent"          = "Отправлено";
+"WalletReceived"      = "Получено";
+"WalletCryptolike"    = "ECHTлайк";
+"WalletWithdraw"      = "Вывод";
+
+// Buttons titles
+"WalletReceiveTitle"  = "Получить";
+"WalletSendTitle"     = "Отправить";
+"WalletContactTo"     = "для";
+"WalletContactFrom"   = "от";
+
+// Date titles
+"WalletToday"         = "Сегодня";
+"WalletYesterday"     = "Вчера";
+"WalletTomorrow"      = "Завтра";
+"ECHT"                = "ECHT";
+
+//Send amount
+"WalletWithdraw"      = "Вывести";
+"WalletNext"          = "Далее";
+"WalletSendMoney"     = "Отправить";
+"WalletNewAccount"    = "Новый\nаккаунт";
+"WalletFindContact"   = "Найти контакт";
+"WalletTo"            = "Кому";
+"WalletUserHolder"    = "Имя пользователя";
+"WalletAmountHolder"  = "Введите сумму";
+"WalletSetPinMessage" = "Пожалуйста установите пин код";
+"WalletEmptyContactMessage" = "Выберите получателя";
+"WalletEmptyMoneyMessage"   = "Введите сумму";
+"WalletMinSendMoneyMessage" = "Введите сумму больше 0";
+"WalletMaxMoneyMessage"     = "Недостаточно средств";
+"WalletLimitMoneyMessage"   = "Введите сумму менее 99999";
+"WalletScanWrongQrMessage"  = "Неверный адрес ECHT";
+"WalletEnterWrongQrMessage" = "Введите правильный адрес кошелька";
+"WalletWrongPinMessage"     = "Введите правильный пин код";
+"WalletScanQR"              = "Скан QR адреса";
+"WalletScanQRforNotFriendMessage"  = "Нужно добавить этого пользователя в друзья перед отправкой ECHT";
+
+//Send Receipt
+"WalletReceipt"       = "Ваш Чек";
+"WalletConfirmInfo"   = "Пожалуйста, подтвердите информацию";
+"WalletAccount"       = "e-Chat АККАУНТ";
+"WalletDate"          = "Дата";
+"WalletTime"          = "Время";
+"WalletTotal"         = "Сумма отправки";
+"WalletReform"        = "Изменить";
+"WalletConfirm"       = "Подтвердить";
+"WalletIncognito"     = "Incognito";
+
+//Withdraw
+"WalletWithdrawCellTitle"   = "Вывод средств";
+"WalletWithdrawSubtitle"    = "Введите сумму для отправки";
+"WalletAmount"              = "Введите сумму";
+"WalletReceiver"            = "Адрес получателя";
+"WalletMinMoneyMessage"     = "Введите сумму больше 20";
+"WalletEmptyAddressMessage" = "Введите адрес для отправки денег";
+"WalletWrongAddressMessage" = "Введите правильный адрес получателя для отправки денег";
+"WalletConfirmWithdraw"     = "Подтвердить отправку";
+"WalletConfirmMessage"      = "Вы действительно хотите отправить";
+"WalletToAddress"           = "на адрес";
+
+//Received
+"WalletCopied"              = "Скопировано";
+"WalletCopyHashButton"      = "Копировать";
+
+//Amount send result messages
+"未设置交易密码"               = "Нет пароля для транзакции";
+"WalletTransactionSuccess"  = "Транзакция успешно завершена";
+"WalletTransactionFailed"   = "Транзация не завершена";
+
+//Error loading message
+"WalletAddressLoadError"        = "Не удалось загрузить Ваш адрес пользователя.\nПожалуйста, проверьте подключение к Интернету и попробуйте позже.";
+"WalletTransactionsLoadError"   = "Не удалось загрузить Ваш список транзакций.\nПожалуйста, проверьте подключение к Интернету и попробуйте позже.";
+"WalletContactsListLoadError"   = "Не удалось загрузить Ваш список контактов.\nПожалуйста, проверьте подключение к Интернету и попробуйте позже.";
+
+//Reset PIN
+"Set PIN" = "Сбросить PIN";
+"Change PIN" = "Смена PIN";
+"Enter your account password to change PIN code" = "Введите пароль своего аккаунта для сброса PIN";
+"Password too short" = "Пароль слишком короткий";
+"Verification failed" = "Ошибка верификации";
+"PIN code successfuly changed" = "PIN успешно изменен";
+"PIN code saved" = "PIN код сохранен";
+"Password" = "Пароль";

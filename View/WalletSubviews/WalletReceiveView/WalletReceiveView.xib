@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WalletReceiveView" customModule="e_Chat" customModuleProvider="target">
+            <connections>
+                <outlet property="copyButton" destination="5dc-rS-aTV" id="u3Y-6A-b8d"/>
+                <outlet property="hashLabel" destination="O1W-a6-RbL" id="yBl-QN-nQr"/>
+                <outlet property="hashTopMarginConstraint" destination="zXG-c9-Pfq" id="tMG-MD-Gpj"/>
+                <outlet property="qrImageHeightConstraint" destination="J2b-Ga-aCf" id="DBA-eb-TZb"/>
+                <outlet property="qrImageView" destination="Rcg-qa-67a" id="3B3-DV-uss"/>
+                <outlet property="qrImageWidthConstraint" destination="4OY-z5-xpv" id="hLe-Bw-kcU"/>
+                <outlet property="topMarginConstraint" destination="2x0-aY-84F" id="CBN-1Y-2es"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="408"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1W-a6-RbL">
+                    <rect key="frame" x="15" y="269" width="345" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="aGS-KQ-T0E"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rcg-qa-67a">
+                    <rect key="frame" x="87" y="30" width="200" height="200"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="4OY-z5-xpv"/>
+                        <constraint firstAttribute="height" constant="200" id="J2b-Ga-aCf"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dc-rS-aTV">
+                    <rect key="frame" x="137" y="301" width="99" height="106"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="99" id="K26-WH-kMJ"/>
+                        <constraint firstAttribute="height" constant="106" id="t5z-I6-ikq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                    <inset key="titleEdgeInsets" minX="-55" minY="60" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="19" minY="0.0" maxX="0.0" maxY="30"/>
+                    <state key="normal" title="Копировать" image="copyClipboardButton">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="copyButtonTapped:" destination="-1" eventType="touchUpInside" id="UoY-Pw-9e1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Rcg-qa-67a" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="2x0-aY-84F"/>
+                <constraint firstItem="5dc-rS-aTV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-1" id="7pH-uW-q9Q"/>
+                <constraint firstItem="5dc-rS-aTV" firstAttribute="top" secondItem="O1W-a6-RbL" secondAttribute="bottom" constant="-3" id="QeE-DW-JUS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="O1W-a6-RbL" secondAttribute="trailing" constant="15" id="h0d-J5-2Pe"/>
+                <constraint firstItem="O1W-a6-RbL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="pCE-gI-AVH"/>
+                <constraint firstItem="Rcg-qa-67a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tUl-IB-NfD"/>
+                <constraint firstItem="O1W-a6-RbL" firstAttribute="top" secondItem="Rcg-qa-67a" secondAttribute="bottom" constant="39" id="zXG-c9-Pfq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="24.5" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="copyClipboardButton" width="58" height="58"/>
+    </resources>
+</document>

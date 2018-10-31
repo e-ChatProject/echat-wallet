@@ -1,0 +1,108 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "钱包";
+
+//Wallet balance and history
+"WalletLabelTitle" = "交易";
+"WalletBalanceEmptyTitle" = "您没有任何交易";
+
+//Transaction filter titles
+"TFilterAll"          = "所有";
+"TFilterSent"         = "发送";
+"TFilterReceived"     = "收到";
+"TFilterCryptolike"   = "ECHT赞";
+"TFilterWithdraw"     = "收回";
+
+//Cell titles
+"WalletSent"          = "发送";
+"WalletReceived"      = "收到";
+"WalletCryptolike"    = "ECHT赞";
+"WalletWithdraw"      = "收回";
+
+// Buttons titles
+"WalletReceiveTitle" = "接收";
+"WalletSendTitle" = "发送";
+"WalletContactTo" = "至";
+"WalletContactFrom" = "从";
+
+// Date titles
+"WalletToday" = "今天";
+"WalletYesterday" = "昨天";
+"WalletTomorrow" = "明天";
+"ECHT" = "ECHT";
+
+//Send money
+"WalletWithdraw" = "转出";
+"WalletNext" = "继续";
+"WalletSendMoney" = "发送";
+"WalletNewAccount" = "新账号";
+"WalletFindContact" = "寻找联系人";
+"WalletTo" = "至";
+"WalletSetPinMessage" = "请设置PIN码";
+"WalletEmptyContactMessage" = "选择要发送的联系人";
+"WalletEmptyMoneyMessage" = "请输入金额";
+"WalletMinSendMoneyMessage" = "В请输入大于0的金额";
+"WalletMaxMoneyMessage" = "请输入少于余额的金额";
+"WalletLimitMoneyMessage" = "请输入小于99999的金额";
+"WalletScanWrongQrMessage" = "ECHT地址不正确";
+"WalletEnterWrongQrMessage" = "请输入正确的二维码钱包";
+"WalletWrongPinMessage" = "请输入正确的PIN";
+"WalletScanQR" = "扫描二维码地址";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt" = "您的收据";
+"WalletConfirmInfo" = "请核对信息是否正确";
+"WalletAccount" = "e-Chat账号";
+"WalletDate" = "日期";
+"WalletTime" = "时间";
+"WalletTotal" = "发送金额";
+"WalletReform" = "进行更改";
+"WalletConfirm" = "确认";
+"WalletUserHolder" = "用户名";
+"WalletAmountHolder" = "输入金额";
+"WalletIncognito" = "匿名";
+
+//Withdraw
+"WalletWithdraw" = "扣除";
+"WalletWithdrawSubtitle" = "扣除提现金额";
+"WalletAmount" = "输入金额";
+"WalletReceiver" = "获取地址";
+"WalletMinMoneyMessage" = "输入超过20的金额";
+"WalletEmptyAddressMessage" = "输入金额发送地址";
+"WalletWrongAddressMessage" = "输入有效的收款人地址";
+"WalletConfirmWithdraw" = "确认资金提现";
+"WalletConfirmMessage" = "您确定想要发送";
+"WalletToAddress" = "至钱包";
+
+//Received
+"WalletCopied" = "已复制";
+"WalletCopyHashButton" = "复制";
+
+//Response messages
+"未设置交易密码" = "未设置交易密码";
+"WalletTransactionSuccess" = "交易已成功完成";
+"WalletTransactionFailed" = "交易未执行";
+
+//Error loading message
+"WalletAddressLoadError" = "现在无法加载用户地址\n请检查您的网络连接并稍后再试。";
+"WalletTransactionsLoadError" = "无法加载交易列表\n请检查您的网络连接，并稍后再试。";
+"WalletContactsListLoadError" = "无法加载联系人列表\n请检查您的网络连接，并稍后再试。";
+
+
+//Reset PIN
+"Set PIN" = "重置PIN";
+"Change PIN" = "修改PIN";
+"Enter your account password to change PIN code" = "输入账户密码以更改PIN码";
+"Password too short" = "密码过短";
+"Verification failed" = "验证错误";
+"PIN code successfuly changed" = "已成功修改PIN码";
+"PIN code saved" = "已保存PIN码";
+"Password" = "密码";

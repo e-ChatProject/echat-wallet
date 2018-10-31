@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = "Giao dịch";
+"WalletBalanceEmptyTitle"   = "Bạn không có giao dịch";
+
+//Transaction filter titles
+"TFilterAll"          = "Tất cả";
+"TFilterSent"         = "Gởi";
+"TFilterReceived"     = "Nhận";
+"TFilterCryptolike"   = "ECHTlike";
+"TFilterWithdraw"     = "Rút tiền";
+
+//Cell titles
+"WalletSent"          = "Gởi";
+"WalletReceived"      = "Nhận";
+"WalletCryptolike"    = "ECHTlike";
+"WalletWithdraw"      = "Rút tiền";
+
+// Buttons titles
+"WalletReceiveTitle"  = "Nhận";
+"WalletSendTitle"     = "Gửi";
+"WalletContactTo"     = "đến";
+"WalletContactFrom"   = "từ";
+
+// Date titles
+"WalletToday"         = "Hôm nay";
+"WalletYesterday"     = "Hôm qua";
+"WalletTomorrow"      = "Ngày mai";
+"ECHT"                = "ECHT";
+
+//Send money
+"WalletWithdraw"      = "Rút tiền";
+"WalletNext"          = "Kế tiếp";
+"WalletSendMoney"     = "Gửi đến";
+"WalletNewAccount"    = "Tài khoản\nmới";
+"WalletFindContact"   = "Tìm một liên hệ";
+"WalletTo"            = "Đến";
+"WalletSetPinMessage" = "Vui lòng đặt mã PIN";
+"WalletEmptyContactMessage" = "Vui lòng chọn số liên lạc để gửi tiền";
+"WalletEmptyMoneyMessage"   = "Vui lòng nhập số tiền";
+"WalletMinSendMoneyMessage" = "Số tiền phải lớn hơn 0";
+"WalletMaxMoneyMessage"     = "Vui lòng nhập số tiền nhỏ hơn số dư của bạn";
+"WalletLimitMoneyMessage"   = "Vui lòng nhập số tiền nhỏ hơn 99999";
+"WalletScanWrongQrMessage"  = "Sai địa chỉ ví ECHT";
+"WalletEnterWrongQrMessage" = "Vui lòng nhập đúng ví QR";
+"WalletWrongPinMessage"     = "Vui lòng nhập đúng mã PIN";
+"WalletScanQR"              = "Quét mã QR";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt"       = "Biên lai của bạn";
+"WalletConfirmInfo"   = "Vui lòng xác nhận giao dịch";
+"WalletAccount"       = "TÀI KHOẢN e-Chat";
+"WalletDate"          = "Ngày";
+"WalletTime"          = "Giờ";
+"WalletTotal"         = "Số tiền gửi";
+"WalletReform"        = "Sửa đổi";
+"WalletConfirm"       = "Xác nhận";
+"WalletUserHolder"    = "Tên người dùng";
+"WalletAmountHolder"  = "Nhập số tiền";
+"WalletIncognito"     = "Riêng tư";
+
+//Withdraw
+"WalletWithdraw"            = "Rút tiền";
+"WalletWithdrawSubtitle"    = "Nhập số tiền cần rút";
+"WalletAmount"              = "Nhập số tiền";
+"WalletReceiver"            = "Địa chỉ người nhận";
+"WalletMinMoneyMessage"     = "Vui lòng nhập số tiền lớn hơn 20";
+"WalletEmptyAddressMessage" = "Vui lòng nhập địa chỉ để rút tiền";
+"WalletWrongAddressMessage" = "Vui lòng nhập đúng địa chỉ người nhận";
+"WalletConfirmWithdraw"     = "Xác nhận rút tiền";
+"WalletConfirmMessage"      = "Bạn thực sự muốn gửi tiền";
+"WalletToAddress"           = "đến địa chỉ";
+
+//Received
+"WalletCopied"              = "Đã sao chép";
+"WalletCopyHashButton"      = "Sao chép";
+
+//Response messages
+"未设置交易密码"               = "Không có mật khẩu giao dịch nào được đặt";
+"WalletTransactionSuccess"  = "Giao dịch thành công";
+"WalletTransactionFailed"   = "Giao dịch không thành công";
+
+//Error loading message
+"WalletAddressLoadError"        = "Không thể tải địa chỉ của người dùng\nVui lòng kiểm tra kết nối mạng rồi thử lại.";
+"WalletTransactionsLoadError"   = "Không thể tải danh sách giao dịch\nVui lòng kiểm tra kết nối mạng rồi thử lại.";
+"WalletContactsListLoadError"   = "Không thể tải danh bạ\nVui lòng kiểm tra kết nối mạng rồi thử lại.";
+
+//Reset PIN
+"Set PIN" = "Đặt lại PIN";
+"Change PIN" = "Đổi PIN";
+"Enter your account password to change PIN code" = "Nhập mật khẩu tài khoản của bạn để đổi PIN";
+"Password too short" = "Mật khẩu quá ngắn";
+"Verification failed" = "Xác minh thất bại";
+"PIN code successfuly changed" = "Đã đổi mã PIN thành công";
+"PIN code saved" = "Đã lưu mã PIN";
+"Password" = "Mật khẩu";

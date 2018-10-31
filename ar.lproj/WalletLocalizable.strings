@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = "المعاملات";
+"WalletBalanceEmptyTitle"   = "ليس لديك معاملات";
+
+//Transaction filter titles
+"TFilterAll"          = "كافة";
+"TFilterSent"         = "ارسال";
+"TFilterReceived"     = "تم الاستلام";
+"TFilterCryptolike"   = "كريبتولايك";
+"TFilterWithdraw"     = "عمليات الإنسحاب";
+
+//Cell titles
+"WalletSent"          = "تم الإرسال";
+"WalletReceived"      = "تم الاستلام";
+"WalletCryptolike"    = "كريبتولايك";
+"WalletWithdraw"      = "عمليات الانسحاب";
+
+// Buttons titles
+"WalletReceiveTitle"  = "استلام";
+"WalletSendTitle"     = "الأيصال";
+"WalletContactTo"     = "إلى";
+"WalletContactFrom"   = "من";
+
+// Date titles
+"WalletToday"         = "اليوم";
+"WalletYesterday"     = "أمس";
+"WalletTomorrow"      = "غداً";
+"ECHT"                = "ECHT";
+
+//Send money
+"WalletWithdraw"      = "إنسحابات";
+"WalletNext"          = "التالي";
+"WalletSendMoney"     = "إرسال إلى";
+"WalletNewAccount"    = "حساب جديد";
+"WalletFindContact"   = "العثور على جهة الاتصال";
+"WalletTo"            = "إلى";
+"WalletSetPinMessage" = "يرجى ضبط الرمز السري";
+"WalletEmptyContactMessage" = "يرجى اختيار مستخدم لأرسال المبلغ";
+"WalletEmptyMoneyMessage"   = "يرجى إدخال مبلغ";
+"WalletMinSendMoneyMessage" = "يرجى ادخال مبلغ أكثر من ٠";
+"WalletMaxMoneyMessage"     = "يرجى ادخال مبلغ أقل من مبلغ رصيدك";
+"WalletLimitMoneyMessage"   = "يرجى إدخال مبلغ أقل من ٩٩٩٩٩";
+"WalletScanWrongQrMessage"  = "عنوان ECHT خاطئ";
+"WalletEnterWrongQrMessage" = "يرجى ادخال باركود المحفظة بشكل صحيح";
+"WalletWrongPinMessage"     = "يرجى ادخال رمز سري صحيح";
+"WalletScanQR"              = "قراءة عنوان الباركود";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt"       = "الإيصال";
+"WalletConfirmInfo"   = "يرجى تأكيد المعلومات";
+"WalletAccount"       = "حساب e-Chat";
+"WalletDate"          = "التاريخ";
+"WalletTime"          = "الوقت";
+"WalletTotal"         = "المبلغ المراد إرساله";
+"WalletReform"        = "تعديل";
+"WalletConfirm"       = "تأكيد";
+"WalletUserHolder"    = "اسم المستخدم";
+"WalletAmountHolder"  = "أدخل المبلغ";
+"WalletIncognito"     = "متخفي";
+
+//Withdraw
+"WalletWithdraw"            = "حب";
+"WalletWithdrawSubtitle"    = "أدخل مبلغ المراد سحبه";
+"WalletAmount"              = "أدخل المبلغ";
+"WalletReceiver"            = "عنوان المستلم";
+"WalletMinMoneyMessage"     = "يرجى ادخال مبلغ أكثر من ٢٠";
+"WalletEmptyAddressMessage" = "يرجى ادخال العنوان لإرسال الأموال";
+"WalletWrongAddressMessage" = "يرجى ادخال عنوان المستلم بشكل صحيح";
+"WalletConfirmWithdraw"     = "تأكيد السحب";
+"WalletConfirmMessage"      = "هل حقاً ترغب بإرسال";
+"WalletToAddress"           = "إلى العنوان";
+
+//Received
+"WalletCopied"              = "تم النسخ";
+"WalletCopyHashButton"      = "نسخ";
+
+//Response messages
+"未设置交易密码"               = "لم يتم ضبط كلمة المرور للمعاملات";
+"WalletTransactionSuccess"  = "تم أكمال المعاملة بنجاح";
+"WalletTransactionFailed"   = "المعاملة لم تكتمل";
+
+//Error loading message
+"WalletAddressLoadError"        = "خطأ تحميل بيانات المستخدم، يرجى التحقق من الاتصال بالانترنت ومحاولة مرة أخرى.";
+"WalletTransactionsLoadError"   = "خطأ تحميل قائمة المعاملات الخاصة بك، يرجى التحقق من الاتصال بالانترنت ومحاولة مرة أخرى";
+"WalletContactsListLoadError"   = "خطأ تحميل قائمة جهات الاتصال الخاصة بك، يرجى التحقق من الاتصال بالانترنت ومحاولة مرة أخرى";
+
+//Reset PIN
+"Set PIN"                       = "إعادة ضبط الرمز السري";
+"Change PIN"                    = "تغيير الرمز السري";
+"Enter your account password to change PIN code" = "أدخل كلمة مرور حسابك لتغيير الرمز السري";
+"Password too short"            = "كلمة مرور قصيرة جداً";
+"Verification failed"           = "فشل التوثيق";
+"PIN code successfuly changed"  = "تم تغيير الرمز السري بنجاح";
+"PIN code saved"                = "تم حفظ الرمز السري بنجاح";
+"Password"                      = "كلمة المرور";

@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = " การทำธุรกรรม ";
+"WalletBalanceEmptyTitle"   = " คุณไม่มีการทำธุรกรรม";
+
+//Transaction filter titles
+"TFilterAll"          = "ทั้งหมด";
+"TFilterSent"         = "ส่ง";
+"TFilterReceived"     = "ที่ได้รับ";
+"TFilterCryptolike"   = "ECHTชอบ";
+"TFilterWithdraw"     = "ถอน";
+
+//Cell titles
+"WalletSent"          = "ส่ง";
+"WalletReceived"      = "ที่ได้รับ";
+"WalletCryptolike"    = "ECHTชอบ";
+"WalletWithdraw"      = "ถอน";
+
+// Buttons titles
+"WalletReceiveTitle"  = " ได้รับ";
+"WalletSendTitle"     = " ส่ง ";
+"WalletContactTo"     = " ถึง";
+"WalletContactFrom"   = " จาก ";
+
+// Date titles
+"WalletToday"         = " วันนี้";
+"WalletYesterday"     = "เมื่อวานนี้";
+"WalletTomorrow"      = " พรุ่งนี้";
+"ECHT"                = "ECHT";
+
+//Send money
+"WalletWithdraw"      = " ถอนเงิน ";
+"WalletNext"          = "ถัดไป ";
+"WalletSendMoney"     = " ส่งถึง";
+"WalletNewAccount"    = " บัญชีใหม่";
+"WalletFindContact"   = " ค้นหาที่ิอยู่ที่ติดต่อ ";
+"WalletTo"            = "ถึง";
+"WalletSetPinMessage" = " กรุณาตั้งรหัส PIN ";
+"WalletEmptyContactMessage" = " กรุณาเลือกที่อยู่ที่ติดต่อสำหรับการส่งจำนวนนวนเงิน";
+"WalletEmptyMoneyMessage"   = " กรุณาใส่จำนวนเงิน";
+"WalletMinSendMoneyMessage" = " กรุณาใส่จำนวนเงินที่มากกว่า 0 ";
+"WalletMaxMoneyMessage"     = " กรุณาใส่จำนวนเงินที่น้อยกว่ายอดเงินของคุณ ";
+"WalletLimitMoneyMessage"   = " กรุณาใส่จำนวนเงินน้อยกว่า 99999";
+"WalletScanWrongQrMessage"  = "ที่อยู่ ECHT ผิด";
+"WalletEnterWrongQrMessage" = " กรุณาใส่ QR wallet ที่ถูกต้อง";
+"WalletWrongPinMessage"     = "กรุณาใส่ PIN ที่ถูกต้อง ";
+"WalletScanQR"              = " สแกนที่อยู๋ QR ";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt"       = " ใบเสร็จของคุณ ";
+"WalletConfirmInfo"   = "กรุณายืนยันข้อมูล";
+"WalletAccount"       = " บัญชี e-Chat";
+"WalletDate"          = " วัน ";
+"WalletTime"          = "เวลา";
+"WalletTotal"         = "จำนวนเงินที่ส่ง";
+"WalletReform"        = "ปฏิรูป";
+"WalletConfirm"       = "ยืนยัน";
+"WalletUserHolder"    = "ชื่อผู้ใช้";
+"WalletAmountHolder"  = "ป้อนจำนวนเงิน";
+"WalletIncognito"     = "ไม่เผยตัว";
+
+//Withdraw
+"WalletWithdraw"            = "ถอนเงิน";
+"WalletWithdrawSubtitle"    = "ใส่จำนวนเงินในการถอนเงิน";
+"WalletAmount"              = "ใส่จำนวนเงิน";
+"WalletReceiver"            = "ที่อยู่ผู้รับ";
+"WalletMinMoneyMessage"     = " กรุณาใส่จำนวนเงินมากกว่า 20";
+"WalletEmptyAddressMessage" = " กรุณาใส่ที่อยู่สำหรับส่งจำนวนเงิน";
+"WalletWrongAddressMessage" = "กรุณาป้อนที่อยู่ผู้รับให้ถูกต้อง";
+"WalletConfirmWithdraw"     = "ยืนยันการถอนงเงิน";
+"WalletConfirmMessage"      = "คุณต้องการส่ง";
+"WalletToAddress"           = " ถึงที่อยู่";
+
+//Received
+"WalletCopied"              = "คัดลอก";
+"WalletCopyHashButton"      = "สำเนา";
+
+//Response messages
+"未设置交易密码"               = "ยังไม่มีการตั้งรหัสการทำธุรกรรม";
+"WalletTransactionSuccess"  = "การทำธุรกรรมเสร็จสมบูรณ์";
+"WalletTransactionFailed"   = "การทำธุรกรรมไม่สมบูรณ์";
+
+//Error loading message
+"WalletAddressLoadError"        = "ไม่สามารถโหลดที่อยู่ผู้ใช้ได้ตอนนี้, กรุณาตรวจสอบการเชื่อมต่อเข้าอินเทอร์เน็ทและลองใหม่.";
+"WalletTransactionsLoadError"   = "ไม่สามารถโหลดรายการทำธุรกรรมของคุณได้ตอนนี้, กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ทและลองใหม่.";
+"WalletContactsListLoadError"   = "ไม่สามารถโหลดรายชื่อผู้ติดต่อได้ตอนนี้, กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ทและลองใหม่.";
+
+//Reset PIN
+"Set PIN" = "ติดตั้ง PIN อีกครั้ง";
+"Change PIN" = "เปลี่ยน PIN";
+"Enter your account password to change PIN code" = "ใส่รหัสผ่านบัญชีเพื่อทำการเปลี่ยนรหัส PIN ";
+"Password too short" = "รหัสสั้นไป";
+"Verification failed" = "การยืนยันล้มเหลว";
+"PIN code successfuly changed" = "การเปลี่ยนรหัส PIN สำเร็จ ";
+"PIN code saved" = " บันทึกรหัส PIN ";
+"Password" = "รหัส";

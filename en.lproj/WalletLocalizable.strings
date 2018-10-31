@@ -1,0 +1,107 @@
+/* 
+  WalletLocalizable.strings
+  e-Chat
+
+  Created by Rostyslav Gress on 07.06.2018.
+  Copyright © 2018 CryptoPark. All rights reserved.
+*/
+
+
+"Wallets" = "ECHT";
+
+//Wallet balance and history
+"WalletLabelTitle"          = "Transactions";
+"WalletBalanceEmptyTitle"   = "You don't have a transactions";
+
+//Transaction filter titles
+"TFilterAll"          = "All";
+"TFilterSent"         = "Sent";
+"TFilterReceived"     = "Received";
+"TFilterCryptolike"   = "ECHTlike";
+"TFilterWithdraw"     = "Withdraw";
+
+//Cell titles
+"WalletSent"          = "Sent";
+"WalletReceived"      = "Received";
+"WalletCryptolike"    = "ECHTlike";
+"WalletWithdraw"      = "Withdraw";
+
+// Buttons titles
+"WalletReceiveTitle"  = "Receive";
+"WalletSendTitle"     = "Send";
+"WalletContactTo"     = "to";
+"WalletContactFrom"   = "from";
+
+// Date titles
+"WalletToday"         = "Today";
+"WalletYesterday"     = "Yesterday";
+"WalletTomorrow"      = "Tomorrow";
+"ECHT"                = "ECHT";
+
+//Send money
+"WalletWithdraw"      = "Withdraw";
+"WalletNext"          = "Next";
+"WalletSendMoney"     = "Send to";
+"WalletNewAccount"    = "New\naccount";
+"WalletFindContact"   = "Find a contact";
+"WalletTo"            = "To";
+"WalletSetPinMessage" = "Please set a pin code";
+"WalletEmptyContactMessage" = "Please select the contact for send amount";
+"WalletEmptyMoneyMessage"   = "Please enter the amount";
+"WalletMinSendMoneyMessage" = "Please enter amount more then 0";
+"WalletMaxMoneyMessage"     = "Please enter amount less then your balance";
+"WalletLimitMoneyMessage"   = "Please enter amount less then 99999";
+"WalletScanWrongQrMessage"  = "Wrong ECHT address";
+"WalletEnterWrongQrMessage" = "Please enter a right QR wallet";
+"WalletWrongPinMessage"     = "Please enter a right pin";
+"WalletScanQR"              = "Scan QR address";
+"WalletScanQRforNotFriendMessage"  = "You need to add this user as a friend before sending ECHT";
+
+//Send Receipt
+"WalletReceipt"       = "Your Receipt";
+"WalletConfirmInfo"   = "Please confirm the information";
+"WalletAccount"       = "e-Chat ACCOUNT";
+"WalletDate"          = "Date";
+"WalletTime"          = "Time";
+"WalletTotal"         = "Amount to send";
+"WalletReform"        = "Reform";
+"WalletConfirm"       = "Confirm";
+"WalletUserHolder"    = "User name";
+"WalletAmountHolder"  = "Enter amount";
+"WalletIncognito"     = "Incognito";
+
+//Withdraw
+"WalletWithdraw"            = "Withdraw";
+"WalletWithdrawSubtitle"    = "Enter the amount for withdraw";
+"WalletAmount"              = "Enter amount";
+"WalletReceiver"            = "Receiver address";
+"WalletMinMoneyMessage"     = "Please enter amount more then 20";
+"WalletEmptyAddressMessage" = "Please enter the address for amount send";
+"WalletWrongAddressMessage" = "Please enter valid receiver address";
+"WalletConfirmWithdraw"     = "Confirm Withdraw";
+"WalletConfirmMessage"      = "Do you really want to send";
+"WalletToAddress"           = "to address";
+
+//Received
+"WalletCopied"              = "Copied";
+"WalletCopyHashButton"      = "Copy";
+
+//Response messages
+"未设置交易密码"               = "No transaction password set";
+"WalletTransactionSuccess"  = "Transaction completed success";
+"WalletTransactionFailed"   = "Transaction not completed";
+
+//Error loading message
+"WalletAddressLoadError"        = "Could not load user address now\nPlease check your internet connection and try a later.";
+"WalletTransactionsLoadError"   = "Could not load your transactions list now\nPlease check your internet connection and try a later.";
+"WalletContactsListLoadError"   = "Could not load your contacts list now\nPlease check your internet connection and try a later.";
+
+//Reset PIN
+"Set PIN"                       = "Reset PIN";
+"Change PIN"                    = "Change PIN";
+"Enter your account password to change PIN code" = "Enter your account password to change PIN code";
+"Password too short"            = "Password too short";
+"Verification failed"           = "Verification failed";
+"PIN code successfuly changed"  = "PIN code successfuly changed";
+"PIN code saved"                = "PIN code saved";
+"Password"                      = "Password";

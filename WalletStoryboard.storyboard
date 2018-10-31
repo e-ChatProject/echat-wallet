@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Dm-9m-DUj">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="pWl-Ba-doI">
+            <objects>
+                <navigationController storyboardIdentifier="WalletNavigationController" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="1Dm-9m-DUj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="walletTabBar" selectedImage="walletTabBarSelected" id="o4v-Fq-d5h">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="ChI-jd-nex">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wdc-nb-iCA" kind="relationship" relationship="rootViewController" id="7fg-qf-ohm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W3E-e2-Ogn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-534" y="3020"/>
+        </scene>
+        <!--Wallet-->
+        <scene sceneID="WpZ-pZ-WHs">
+            <objects>
+                <viewController storyboardIdentifier="WalletViewController" id="wdc-nb-iCA" customClass="WalletView" customModule="e_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cVu-rg-O0U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Umw-jH-AJ6">
+                                <rect key="frame" x="0.0" y="269" width="375" height="349"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfC-bb-3ho">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="349"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="wdc-nb-iCA" id="2bx-Vd-1gc"/>
+                                        </connections>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="mfC-bb-3ho" secondAttribute="bottom" id="2KI-QG-B8a"/>
+                                    <constraint firstItem="mfC-bb-3ho" firstAttribute="leading" secondItem="Umw-jH-AJ6" secondAttribute="leading" id="P7T-DI-Reo"/>
+                                    <constraint firstItem="mfC-bb-3ho" firstAttribute="top" secondItem="Umw-jH-AJ6" secondAttribute="top" id="fEk-IW-3tZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="mfC-bb-3ho" secondAttribute="trailing" id="yeU-nx-ffA"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="walletTopImage" translatesAutoresizingMaskIntoConstraints="NO" id="WHI-qf-jzb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="261"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="261" id="bSx-Td-3nv"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffc-Ly-AGA">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Boy-0L-CLe">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="100000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0np-Oa-EcD">
+                                        <rect key="frame" x="20" y="7" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="6pl-Wm-9MA"/>
+                                            <constraint firstAttribute="width" constant="30" id="rvi-bc-8IP"/>
+                                        </constraints>
+                                        <state key="normal" image="backButtonWhite"/>
+                                        <connections>
+                                            <action selector="navBarButtonsTapped:" destination="wdc-nb-iCA" eventType="touchUpInside" id="xng-3H-ZKJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="100001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkW-va-cDM">
+                                        <rect key="frame" x="330" y="9.5" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="dhQ-Id-4xa"/>
+                                            <constraint firstAttribute="height" constant="25" id="sn3-Vj-NkQ"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" backgroundImage="walletQrButton"/>
+                                        <connections>
+                                            <action selector="navBarButtonsTapped:" destination="wdc-nb-iCA" eventType="touchUpInside" id="KI1-lh-Go8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0np-Oa-EcD" firstAttribute="centerY" secondItem="ffc-Ly-AGA" secondAttribute="centerY" id="12I-2T-Irr"/>
+                                    <constraint firstItem="0np-Oa-EcD" firstAttribute="leading" secondItem="ffc-Ly-AGA" secondAttribute="leading" constant="20" id="1H0-9M-eQq"/>
+                                    <constraint firstItem="Boy-0L-CLe" firstAttribute="top" secondItem="ffc-Ly-AGA" secondAttribute="top" id="1em-6j-iKZ"/>
+                                    <constraint firstItem="Boy-0L-CLe" firstAttribute="leading" secondItem="ffc-Ly-AGA" secondAttribute="leading" id="8x3-0l-M1x"/>
+                                    <constraint firstAttribute="height" constant="44" id="Dfe-kW-u49"/>
+                                    <constraint firstAttribute="trailing" secondItem="dkW-va-cDM" secondAttribute="trailing" constant="20" id="Wc2-5G-qfw"/>
+                                    <constraint firstItem="dkW-va-cDM" firstAttribute="centerY" secondItem="ffc-Ly-AGA" secondAttribute="centerY" id="Xrg-z7-IeT"/>
+                                    <constraint firstAttribute="bottom" secondItem="Boy-0L-CLe" secondAttribute="bottom" id="bQG-dc-pkx"/>
+                                    <constraint firstAttribute="trailing" secondItem="Boy-0L-CLe" secondAttribute="trailing" id="xAW-HL-d9w"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Umw-jH-AJ6" firstAttribute="leading" secondItem="Guu-jj-4Zy" secondAttribute="leading" id="51P-Ta-0d3"/>
+                            <constraint firstItem="Umw-jH-AJ6" firstAttribute="top" secondItem="WHI-qf-jzb" secondAttribute="bottom" constant="8" id="7In-g7-pH8"/>
+                            <constraint firstItem="WHI-qf-jzb" firstAttribute="top" secondItem="cVu-rg-O0U" secondAttribute="top" id="8gU-EM-qnP"/>
+                            <constraint firstItem="Umw-jH-AJ6" firstAttribute="bottom" secondItem="cVu-rg-O0U" secondAttribute="bottom" id="9R4-E9-B3j"/>
+                            <constraint firstItem="WHI-qf-jzb" firstAttribute="trailing" secondItem="Guu-jj-4Zy" secondAttribute="trailing" id="G79-TY-BD2"/>
+                            <constraint firstItem="Umw-jH-AJ6" firstAttribute="trailing" secondItem="Guu-jj-4Zy" secondAttribute="trailing" id="Pr0-1Y-RgP"/>
+                            <constraint firstItem="ffc-Ly-AGA" firstAttribute="leading" secondItem="Guu-jj-4Zy" secondAttribute="leading" id="Rfm-i2-poM"/>
+                            <constraint firstItem="ffc-Ly-AGA" firstAttribute="trailing" secondItem="Guu-jj-4Zy" secondAttribute="trailing" id="Rfx-BW-Ogq"/>
+                            <constraint firstItem="ffc-Ly-AGA" firstAttribute="top" secondItem="Guu-jj-4Zy" secondAttribute="top" id="a64-a2-nMb"/>
+                            <constraint firstItem="WHI-qf-jzb" firstAttribute="leading" secondItem="Guu-jj-4Zy" secondAttribute="leading" id="onI-Qw-qCG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Guu-jj-4Zy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wallet" id="e5o-mK-1pJ"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="backButton" destination="0np-Oa-EcD" id="dgU-rb-zx2"/>
+                        <outlet property="containerView" destination="Umw-jH-AJ6" id="AtN-C4-059"/>
+                        <outlet property="navBarTitleLabel" destination="Boy-0L-CLe" id="8ru-cV-AA4"/>
+                        <outlet property="scrollView" destination="mfC-bb-3ho" id="fVn-iW-VcS"/>
+                        <outlet property="topImageView" destination="WHI-qf-jzb" id="n9r-8j-5J8"/>
+                        <outlet property="topImageViewHeightConstraint" destination="bSx-Td-3nv" id="oPH-zg-cHg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JqF-2p-jvf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="3019"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backButtonWhite" width="9" height="13"/>
+        <image name="walletQrButton" width="19" height="19"/>
+        <image name="walletTabBar" width="21" height="21"/>
+        <image name="walletTabBarSelected" width="21" height="21"/>
+        <image name="walletTopImage" width="375" height="254"/>
+    </resources>
+</document>
